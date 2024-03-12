@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-image: linear-gradient(to left, rgb(9, 131, 13), rgb(5, 62, 5));
+    color: #fafbfb;
+}
+
+
+/* header heading section */
+#heading {
+    margin-top: 100px;
+}
+
+/* Heading navbar */
+#nav{
+    box-shadow: 0px 50px 100px -20px rgb(2, 61, 11), 0px 30px 60px 10px rgba(108, 76, 112, -0.2) ,0px -2px 6px 0px rgb(4, 93, 9) inset;
+     background-image: linear-gradient(0deg, #1b3116, #066319); 
+    
+}
+
+.app_name{
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #1c8336e4;
+}
+
+/* App's logo */
+#logo{
+    height: 50px;
+    width: 50px;
+    margin: 0 20px 0 10px;
+    
+}
+
+.rounded-5{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+/* header search bar section */
+#search-bar{
+    max-width: 600px;
+}
+
+#search-bar input{
+    height: 50px;
+    border-radius: 20px;
+}
+
+#card{
+    background-image: linear-gradient(119deg, #2b9b14bd, #85a323e3);
+    padding: 10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#card h5{
+    color: black;
+    font-family: cursive;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+#card img{
+    border-radius: 50%;
+}
+
+#card-title{
+    color: black;
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Meal details container */
+
+#meal-details{
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #1c8336e4;
+}
+
+#meal-header{
+    width: 70%;
+    margin: auto;
+}
+
+#meal-thumbail img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+#meal-instruction{
+    margin: auto;
+    text-align: center;
+}
+
+/* Favourites offcanvas */
+
+#favourites-body{
+    background-color: #1c8336e4;
+}
+
+#fav{
+    margin: 0 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
